@@ -9,6 +9,7 @@ body {
     background: linear-gradient(to right bottom , rgba(109, 50, 125930.85) , rgb(2, 2, 60 , .93));
 }
 .rank-logo {
+    padding-top: .8rem;
     height: 80px;
     width: 80px;
 }
