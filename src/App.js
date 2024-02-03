@@ -1,16 +1,16 @@
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
-import Nav from './components/Nav';
+import Card from './components/Card';
+import './App.css'
 
-function App() {
+function App() {  
   return (
-    <React.Fragment>
-      <Nav />
-      <div className='bg-warning text-primary border border-success mx-2 my-2 p-2 rounded d-flex justify-content-center align-items-center'>
-        <div className='para'>Hello World...!</div>
-        <button className='btn-success btn mx-2'>Booti</button>
+    <>
+      <div className="main container pt-5 pb-3 position-relative my-5 rounded-5  border border-primary ">  
+        <h2 className="position-absolute top-0 start-50 translate-middle badge tag p-3 fs-4">LeaderBoard</h2>      
+        <Card />
       </div>
-    </React.Fragment>
+    </>
   )
 }
 
