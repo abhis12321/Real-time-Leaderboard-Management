@@ -60,5 +60,4 @@ function Card() {
   );
 }
 
-
 export default React.memo(Card);
