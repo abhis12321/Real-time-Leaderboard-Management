@@ -1,9 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
-    background-color: rgba(100, 100, 232, 0.938);
+    padding: auto 1rem;
+    min-height: 100vh;
+    background: linear-gradient(to right bottom , rgba(109, 50, 125930.85) , rgb(2, 2, 60 , .93));
 }
 .rank-logo {
     height: 80px;

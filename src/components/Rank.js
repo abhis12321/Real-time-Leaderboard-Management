@@ -3,7 +3,7 @@ import React from "react"
 function Row({index, user , update}) {
     return (
         <React.Fragment>
-          <li className="row px-2 my-3 ">
+          <li className="row px-2 my-3 d-flex align-items-center">
             {
                 index > 2 ?
                     <div className="col-2 text-light fs-3 fw-bolder m-0 p-0">{index+1}</div>
