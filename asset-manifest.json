@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/abhis12321/booti-react/static/css/main.310ab51e.css",
+    "main.js": "/abhis12321/booti-react/static/js/main.478d7be5.js",
+    "static/js/787.ae4e8cbc.chunk.js": "/abhis12321/booti-react/static/js/787.ae4e8cbc.chunk.js",
+    "index.html": "/abhis12321/booti-react/index.html",
+    "main.310ab51e.css.map": "/abhis12321/booti-react/static/css/main.310ab51e.css.map",
+    "main.478d7be5.js.map": "/abhis12321/booti-react/static/js/main.478d7be5.js.map",
+    "787.ae4e8cbc.chunk.js.map": "/abhis12321/booti-react/static/js/787.ae4e8cbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.310ab51e.css",
+    "static/js/main.478d7be5.js"
+  ]
+}
