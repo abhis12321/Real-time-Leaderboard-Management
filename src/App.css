@@ -38,12 +38,16 @@ body {
     padding: 1.4rem 1.8rem;
 }
 
-.row {
-    min-height: 4rem;
-}
-
 .col-8 {
     height: 2.7rem;
+}
+#info {
+    overflow: hidden;
+    max-height: 3rem;
+}
+#num {
+    height: 80px;
+    line-height: 80px;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -73,10 +77,33 @@ body {
   }
 
   
-/* @media only screen and (max-width: 470px) {
-    .rank-logo-profile {
-        width: 2.1rem;
-        height: 2.1rem;
+@media only screen and (max-width: 470px) {
+    .rank-logo {
+        width: 3.1rem;
         opacity: .87;
     }
-  } */
+    .profile-img {
+        padding: 0 !important;
+        width: 2rem !important;
+        margin-right: 1.2rem !important;
+    }
+    .rank-logo-profile {
+        padding: 0 !important;
+        width: 2rem;
+    }
+    #info {
+        height: 2rem;
+        line-height: 2rem;
+        justify-content: center;
+        align-items: center;
+        font-size: small !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .rank {
+        width: 3rem !important;
+    }
+    .btn {
+        width: fit-content !important;
+    }
+  }

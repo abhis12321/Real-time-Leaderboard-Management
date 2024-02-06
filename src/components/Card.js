@@ -50,7 +50,7 @@ function Card() {
     }
 
   return (
-        <ul className="p-0 m-0 justify-content-center align-items-center text-center container">
+        <ul className="p-0 m-0  text-center container">
             {
                 users?.map((user , index) => {
                     return <Rank user = {user} index = {index} update = {update} key = {user.id}/>
