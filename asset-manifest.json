@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/abhis12321/booti-react/static/css/main.310ab51e.css",
-    "main.js": "/abhis12321/booti-react/static/js/main.478d7be5.js",
-    "static/js/787.ae4e8cbc.chunk.js": "/abhis12321/booti-react/static/js/787.ae4e8cbc.chunk.js",
-    "index.html": "/abhis12321/booti-react/index.html",
-    "main.310ab51e.css.map": "/abhis12321/booti-react/static/css/main.310ab51e.css.map",
-    "main.478d7be5.js.map": "/abhis12321/booti-react/static/js/main.478d7be5.js.map",
-    "787.ae4e8cbc.chunk.js.map": "/abhis12321/booti-react/static/js/787.ae4e8cbc.chunk.js.map"
+    "main.css": "/booti-react/static/css/main.c4953fab.css",
+    "main.js": "/booti-react/static/js/main.118dc20c.js",
+    "static/js/787.ae4e8cbc.chunk.js": "/booti-react/static/js/787.ae4e8cbc.chunk.js",
+    "index.html": "/booti-react/index.html",
+    "main.c4953fab.css.map": "/booti-react/static/css/main.c4953fab.css.map",
+    "main.118dc20c.js.map": "/booti-react/static/js/main.118dc20c.js.map",
+    "787.ae4e8cbc.chunk.js.map": "/booti-react/static/js/787.ae4e8cbc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.310ab51e.css",
-    "static/js/main.478d7be5.js"
+    "static/css/main.c4953fab.css",
+    "static/js/main.118dc20c.js"
   ]
 }
