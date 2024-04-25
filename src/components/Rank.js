@@ -16,12 +16,12 @@ function Rank({ index, user, update }) {
             />
           </div>
         </div>
-        <div className="flex items-center justify-around w-full sm:flex-1 bg-sky-600/60 rounded-xl font-bold">
+        <div className="flex items-center justify-around w-full sm:flex-1 bg-sky-600/60 rounded-lg font-bold">
           <div className="w-[45%]">
             {user?.userName ? user.userName : "player name"}
           </div>
           <button
-            className="w-[15%] min-w-[80px] text-center bg-green-700 border-2 border-green-600 hover:bg-green-600 hover:rounded-lg hover:text-yellow-300 active:bg-violet-950 border-1 rounded"
+            className="w-[15%] min-w-[80px] text-center bg-green-700 border-2 border-green-600 hover:bg-green-800 hover:rounded-lg hover:text-yellow-300 active:bg-violet-950 border-1 rounded"
             onClick={(e) => update(user.id)}
           >
             vote

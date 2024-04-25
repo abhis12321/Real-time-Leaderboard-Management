@@ -30,6 +30,14 @@ function Card() {
         } ,
     ];    
 
+/*
+//Fetching users data from api url
+    React.useEffect(() => {
+        fetch(process.env.API_URI)
+            .then(res => res.json)
+            .then(data => setUsers([...data]));
+    })
+*/
     const [users , setUsers] = React.useState(null);
     React.useEffect(() => {
         let sortedusers = initialUsers.sort((a , b) => b.points >= a.points ? 1 : -1);
@@ -50,7 +58,7 @@ function Card() {
     }
 
   return (
-        <ul className="text-center flex flex-col gap-8 items-center justify-around w-full pt-8">
+        <ul className="text-center flex flex-col gap-5 xs:gap-8 items-center justify-around w-full pt-8">
             {
                 users?.map((user , index) => {
                     return <Rank user = {user} index = {index} update = {update} key = {user.id}/>
