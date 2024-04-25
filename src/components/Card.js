@@ -58,7 +58,7 @@ function Card() {
     }
 
   return (
-        <ul className="text-center flex flex-col gap-5 xs:gap-8 items-center justify-around w-full pt-8">
+        <ul className="text-center flex flex-col gap-4 xs:gap-8 items-center justify-around w-full pt-8">
             {
                 users?.map((user , index) => {
                     return <Rank user = {user} index = {index} update = {update} key = {user.id}/>
