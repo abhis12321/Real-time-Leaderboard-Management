@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Real-time-Leaderboard-Management/static/css/main.49be0a30.css",
-    "main.js": "/Real-time-Leaderboard-Management/static/js/main.ee192c5f.js",
-    "static/js/592.ee605735.chunk.js": "/Real-time-Leaderboard-Management/static/js/592.ee605735.chunk.js",
-    "index.html": "/Real-time-Leaderboard-Management/index.html",
-    "main.49be0a30.css.map": "/Real-time-Leaderboard-Management/static/css/main.49be0a30.css.map",
-    "main.ee192c5f.js.map": "/Real-time-Leaderboard-Management/static/js/main.ee192c5f.js.map",
-    "592.ee605735.chunk.js.map": "/Real-time-Leaderboard-Management/static/js/592.ee605735.chunk.js.map"
+    "main.css": "/booti-react/static/css/main.d0bab4e6.css",
+    "main.js": "/booti-react/static/js/main.b69dad32.js",
+    "static/js/787.ae4e8cbc.chunk.js": "/booti-react/static/js/787.ae4e8cbc.chunk.js",
+    "index.html": "/booti-react/index.html",
+    "main.d0bab4e6.css.map": "/booti-react/static/css/main.d0bab4e6.css.map",
+    "main.b69dad32.js.map": "/booti-react/static/js/main.b69dad32.js.map",
+    "787.ae4e8cbc.chunk.js.map": "/booti-react/static/js/787.ae4e8cbc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.49be0a30.css",
-    "static/js/main.ee192c5f.js"
+    "static/css/main.d0bab4e6.css",
+    "static/js/main.b69dad32.js"
   ]
 }
