@@ -11,22 +11,22 @@ function Card() {
         {
             id:"#i124" ,
             userName:"kausik" , 
-            points:2122 ,
+            points:2212 ,
         } ,
         {
             id:"#1234" ,
             userName:"santosh" , 
-            points:2422 ,
+            points:2232 ,
         } ,
         {
             id:"#i34" ,
             userName:"tarun" , 
-            points:2222 ,
+            points:2221 ,
         } ,
         {
             id:"#i12" ,
             userName:"amit" , 
-            points:21122 ,
+            points:2201 ,
         } ,
     ];    
 
@@ -50,7 +50,7 @@ function Card() {
     }
 
   return (
-        <ul className="p-0 m-0  text-center container">
+        <ul className="text-center flex flex-col gap-8 items-center justify-around w-full pt-8">
             {
                 users?.map((user , index) => {
                     return <Rank user = {user} index = {index} update = {update} key = {user.id}/>

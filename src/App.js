@@ -1,16 +1,14 @@
 import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
 import Card from './components/Card';
-import './App.css'
 
 function App() {  
   return (
-    <>
-      <div className="main container pt-5 pb-3 position-relative my-5 rounded-5  border border-primary">  
-        <h2 className="position-absolute top-0 start-50 translate-middle badge tag p-3 fs-4">LeaderBoard</h2>      
+    <div className='bg-slate-800 text-white min-h-[100vh] flex items-center justify-center pt-14 pb-2'>
+      <div className="relative w-[98%] max-w-[900px] border-2 border-sky-500 py-4 px-2 xs:px-1 md:px-8 rounded-xl bg-gradient-to-br from-blue-700 via-indigo-800 to-violet-900 flex flex-col gap-4 items-center">  
+        <h2 className="absolute top-[-2.5rem] bg-indigo-950 text-3xl w-fit font-semibold border-2 border-sky-600 py-3 px-5 rounded-lg">LeaderBoard</h2>      
         <Card />
       </div>
-    </>
+    </div>
   )
 }
 

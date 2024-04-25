@@ -1,45 +1,36 @@
 import React from "react";
 
-function Rank({index, user , update}) {
-    return (
-        <React.Fragment>
-          <li className="row px-2 my-3 d-flex align-items-center">
-            {   //--Rank
-                index === 0 ?
-                <div className="rank col-2 text-light fs-5  m-0 p-0">               
-                    <img src="medal1.png" alt="" className="rank-logo" />
-                </div> 
-                :
-                index === 1 ?
-                    <div className="rank col-2 text-light fs-5  m-0 p-0">
-                        <img src="medal2.png" alt="" className="rank-logo" />
-                    </div>
-                :
-                index === 2 ?
-                    <div className="rank col-2 text-light fs-5  m-0 p-0">
-                        <img src="medal3.png" alt="" className="rank-logo" />
-                    </div>
-                :
-                    <div className="rank col-2 text-light fs-3 fw-bolder m-0 p-0" id="num">
-                        {index+1}
-                    </div>
-            }
-            <div className="col-2 profile-img"> 
-                <img src="profile.png" alt="" className="rank-logo-profile  bg-light" />
-            </div>
-            <div className=" bg-primary rounded-3 d-flex justify-content-around align-items-center text-center text-light fs-5 fw-medium col-8 row" id="info">
-                <div className="col-4">
-                    {user?.userName ? user.userName : 'player name'}
-                </div>
-                <button className='btn bg-success bg-opacity-70 border border-danger fw-semibold py-0 fs-4 col-3' onClick={e => update(user.id)}>vote</button>
-                <div className="col-4">
-                    {user?.points ? user.points : '20101'}
-                </div>
-            </div>
-          </li>
-        </React.Fragment>          
-    )
+function Rank({ index, user, update }) {
+  return (
+    <React.Fragment>
+      <li className="flex flex-col xs:flex-row gap-4 items-center bg-ed-900 w-full justify-around leading-10 bg-slate-800/20 rounded-lg px-2 xs:px-1 py-2 xs:py-0">
+        <div className="flex min-w-[25%] items-center justify-around">
+          <div className="w-12 font-semibold text-3xl text-center">
+            {index + 1}
+          </div>
+          <div className="min-w-[15%] w-12 bg-ed-400">
+            <img
+              src="https://imgs.search.brave.com/KalqOqOpDTXKJY9gcgzSRYLYhobXYo6PuXVdZxzaLQA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzY0LzU3LzAw/LzM2MF9GXzU2NDU3/MDA4OV8yb3U3UTZm/V1lrUDFvQzVFSWU3/NzBiYWVZajB2TjF4/Uy5qcGc"
+              alt="profile-img"
+              className="w-12 h-12 mx-auto rounded-full opacity-70"
+            />
+          </div>
+        </div>
+        <div className="flex items-center justify-around w-full sm:flex-1 bg-sky-600/60 rounded-xl font-bold">
+          <div className="w-[45%]">
+            {user?.userName ? user.userName : "player name"}
+          </div>
+          <button
+            className="w-[15%] min-w-[80px] text-center bg-green-700 border-2 border-green-600 hover:bg-green-600 hover:rounded-lg hover:text-yellow-300 active:bg-violet-950 border-1 rounded"
+            onClick={(e) => update(user.id)}
+          >
+            vote
+          </button>
+          <div className="w-[40%]">{user?.points ? user.points : "20101"}</div>
+        </div>
+      </li>
+    </React.Fragment>
+  );
 }
-
 
 export default React.memo(Rank);
